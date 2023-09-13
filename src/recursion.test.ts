@@ -1,4 +1,4 @@
-const {
+import {
   product,
   longest,
   everyOther,
@@ -6,8 +6,8 @@ const {
   findIndex,
   revString,
   gatherStrings,
-  binarySearch
-} = require("./recursion");
+  // binarySearch
+} from "./recursion";
 
 describe("product", function() {
   it("returns the product of all numbers in an array", function() {
